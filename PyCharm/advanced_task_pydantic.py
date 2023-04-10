@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import json
-from pydantic import BaseModel, ValidationError
 import sys
+from pydantic import BaseModel, ValidationError
 
 
 class Bank(BaseModel):
