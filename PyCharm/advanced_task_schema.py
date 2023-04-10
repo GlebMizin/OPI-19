@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import jsonschema
-from jsonschema import validate
 import json
 import sys
+from jsonschema import validate
 
 schema = {
     "type": "object",
