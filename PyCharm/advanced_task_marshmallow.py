@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import marshmallow
-from marshmallow import Schema, fields
 import json
 import sys
+from marshmallow import Schema, fields
 
 
 class Bank(Schema):
